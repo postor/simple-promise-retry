@@ -31,4 +31,24 @@ var retryPromise = require('simple-promise-retry')
   })
 
 ```
+结果|result
+```
+//成功|success
+> node test/index.js --harmony
 
+false
+false
+false
+true
+[ 'succ', true ]
+
+//失败|fail
+> node test/index.js --harmony
+
+false
+false
+false
+false
+false
+[ 'err:', [ false, false, false, false, false ] ]
+```
