@@ -1,0 +1,23 @@
+{
+  "name": "simple-promise-retry",
+  "version": "1.0.0",
+  "description": "no requirements, try your promise multiple times",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postor/simple-promise-retry.git"
+  },
+  "keywords": [
+    "promise",
+    "retry"
+  ],
+  "author": "postor@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postor/simple-promise-retry/issues"
+  },
+  "homepage": "https://github.com/postor/simple-promise-retry#readme"
+}
