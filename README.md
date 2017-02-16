@@ -1,7 +1,7 @@
 # simple-promise-retry
 no requirements, try your promise multiple times
 
-安装
+安装|install
 ```
 npm install simple-promise-retry
 ```
@@ -31,3 +31,4 @@ var retryPromise = require('simple-promise-retry')
   })
 
 ```
+
